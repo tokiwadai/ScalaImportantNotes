@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9da604f9-b6e6-40f3-b366-005392430a79" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/IdeaProject.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/highlighting.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_swagger_swagger_core_1_5_16_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_swagger_swagger_core_1_5_16_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akka-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/akka-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akka.iml" afterPath="$PROJECT_DIR$/.idea/modules/akka.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttp-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttp-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttp.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/core-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/core-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/core.iml" afterPath="$PROJECT_DIR$/.idea/modules/core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9da604f9-b6e6-40f3-b366-005392430a79" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/akka/target/" />
@@ -130,19 +108,6 @@
               <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
               <item name="akka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="akka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="akka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
