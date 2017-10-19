@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9da604f9-b6e6-40f3-b366-005392430a79" name="Default" comment="" />
+    <list default="true" id="9da604f9-b6e6-40f3-b366-005392430a79" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever2.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever2.scala" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/akka/target/" />
@@ -38,7 +41,69 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="AccountBalanceRetriever1.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#143#193#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Cameo.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/cameo/Cameo.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Common.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/common/Common.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AccountBalanceRetriever2.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever2.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="83" lean-forward="false" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AccountBalanceRetrieverFinal.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetrieverFinal.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-135">
+                  <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,11 +119,9 @@
         <option value="$PROJECT_DIR$/akka/src/main/scala/com/org/jamieallen/effectiveakka/common/Common.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/common/Common.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/extra/AccountBalanceRetriever1.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever2.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever3.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetrieverFinal.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/stuntdouble/StuntDouble.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/akka/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/cameo/Cameo.scala" />
@@ -67,14 +130,14 @@
         <option value="$PROJECT_DIR$/akka/src/test/scala/org/jamieallen/effectiveakka/common/CommonStubs.scala" />
         <option value="$PROJECT_DIR$/akka/src/test/resources/application.conf" />
         <option value="$PROJECT_DIR$/akka/src/test/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever2.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="210" />
-    <option name="y" value="56" />
-    <option name="width" value="1430" />
-    <option name="height" value="882" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -108,6 +171,88 @@
               <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
               <item name="akka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="effectiveakka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="effectiveakka" type="462c0819:PsiDirectoryNode" />
+              <item name="cameo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="effectiveakka" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="effectiveakka" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="effectiveakka" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="extra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaMiscNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="effectiveakka" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="stuntdouble" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScalaMiscNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -303,10 +448,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="210" y="56" width="1430" height="882" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839507" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.266" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -315,7 +461,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24475524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16190477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -426,26 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever3.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetrieverFinal.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -455,16 +585,6 @@
         <state relative-caret-position="300">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#52#92#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,22 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/common/Common.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/cameo/Cameo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -541,6 +645,49 @@
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/cameo/Cameo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/common/Common.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="83" lean-forward="false" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetrieverFinal.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#143#193#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
