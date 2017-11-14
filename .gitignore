@@ -4,5 +4,6 @@ target/*
 */target/*
 */*/target
 */*/target/*
+akka/src/main/resources/2008.csv
 !.idea/workspace.xml
 !.idea/tasks.xml
