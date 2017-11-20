@@ -34,7 +34,7 @@ object Dependencies {
   val backendDeps =
   Seq(akkaActor,
     specs2core % Test, scalatest, scalacheck % Test, scalameter % Test, junit % Test, scalatic % Test)
-  val akkaDeps = Seq(akkaActor, akkaTestkit)
+  val akkaDeps = Seq(akkaActor, akkaTestkit, akkaStreamDep)
   val akkaHttpDeps = Seq(akkaHttpSprayJson, akkaStreamDep, akkaHttpDep)
   val akkaSwaggerDeps = akkaHttpDeps :+ ioSwagger :+ swaggerAkka :+ httpCors
 }
