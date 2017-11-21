@@ -42,7 +42,6 @@ object FlightDelayStreaming {
         ClosedShape
     })
     // @formatter:on
-
     g.run()
 
   }
