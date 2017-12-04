@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da604f9-b6e6-40f3-b366-005392430a79" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Dependencies.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akka.iml" afterPath="$PROJECT_DIR$/.idea/modules/akka.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttp.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/core.iml" afterPath="$PROJECT_DIR$/.idea/modules/core.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/cameo/Cameo.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/common/Common.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever2.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever3.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetrieverFinal.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/stuntdouble/StuntDouble.scala" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/FlightDelayStreaming.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/FlightDelayStreaming.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/LinearFlow.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/LinearFlow.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,50 +48,24 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50880134">
+    <splitter split-orientation="horizontal" split-proportion="0.471066">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LinearFlow.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="LinearFlow.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/LinearFlow.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
-                  <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="55" />
+                <state relative-caret-position="391">
+                  <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FlightDelayStreaming.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/FlightDelayStreaming.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#55#84#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FutureCallback1.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/main/scala/concurrency/future/callback/FutureCallback1.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="59" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
           <file leaf-file-name="Chapter61WhtTaxStatusCesiumCheck.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/Chapter61WhtTaxStatusCesiumCheck.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="609">
-                  <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+                <state relative-caret-position="340">
+                  <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
                   <folding>
                     <element signature="e#23#96#0" expanded="true" />
                     <element signature="e#175#204#0" expanded="true" />
@@ -100,11 +75,74 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Flow.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Flow.scala">
+          <file leaf-file-name="FutureCallback1.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/core/src/main/scala/concurrency/future/callback/FutureCallback1.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="721">
-                  <caret line="747" column="29" lean-forward="true" selection-start-line="747" selection-start-column="29" selection-end-line="747" selection-end-column="29" />
+                <state relative-caret-position="242">
+                  <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="59" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="HelloAkkaStreamSynchBasic.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamSynchBasic.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#34#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HelloAkkaStreamSynchBasic2.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamSynchBasic2.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#34#53#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HelloAkkaStreamAsynchBasic.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchBasic.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#34#93#0" expanded="true" />
+                    <element signature="e#299#322#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HelloAkkaStreamAsynchGraph.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchGraph.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+                  <folding>
+                    <element signature="e#34#93#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/readme.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -145,14 +183,21 @@
         <option value="$PROJECT_DIR$/project/dependencies.sbt" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/FlightDelayStreaming.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/Chapter61WhtTaxStatusCesiumCheck.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/LinearFlow.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamSynchBasic.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchBsic.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamSynchBasic2.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchBasic.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchGraph.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/readme.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
+    <option name="x" value="72" />
     <option name="y" value="31" />
-    <option name="width" value="2527" />
-    <option name="height" value="1321" />
+    <option name="width" value="2460" />
+    <option name="height" value="1369" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -173,8 +218,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +250,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -279,24 +331,29 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/akka/src/main/scala/com/org/jamieallen/effectiveakka/common" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/akka/src/main/scala/" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.jamieallen.effectiveakka.pattern" />
       <recent name="org.jamieallen.effectiveakka.common" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka" />
+      <recent name="$PROJECT_DIR$/akka/src/test/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sample.stream.hello.akka" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/akka/src/test/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/akka/src/main/scala/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,15 +368,107 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Chapter61WhtTaxStatusCesiumCheck">
-    <configuration name="Chapter61WhtTaxStatusCesiumCheck" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.HelloAkkaStreamAsynchGraph">
+    <configuration name="HelloAkkaStreamAsynchBasic" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.stream.hello.akka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.stream.hello.akka.HelloAkkaStreamAsynchBasic" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="akka" />
+      <envs />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloAkkaStreamAsynchGraph" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.stream.hello.akka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.stream.hello.akka.HelloAkkaStreamAsynchGraph" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="akka" />
+      <envs />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloAkkaStreamSynchBasic" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.stream.hello.akka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.stream.hello.akka.HelloAkkaStreamSynchBasic" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="akka" />
+      <envs />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloAkkaStreamSynchBasic2" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.stream.hello.akka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.stream.hello.akka.HelloAkkaStreamSynchBasic2" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="akka" />
+      <envs />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearFlow" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="sample.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.stream.Chapter61WhtTaxStatusCesiumCheck" />
+      <option name="MAIN_CLASS_NAME" value="sample.stream.LinearFlow" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -412,9 +561,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.LinearFlow" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HelloAkkaStreamSynchBasic" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HelloAkkaStreamSynchBasic2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HelloAkkaStreamAsynchBasic" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HelloAkkaStreamAsynchGraph" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloAkkaStreamAsynchGraph" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HelloAkkaStreamAsynchBasic" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HelloAkkaStreamSynchBasic2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloAkkaStreamSynchBasic" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LinearFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -494,32 +654,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="31" width="2527" height="1321" extended-state="0" />
-    <editor active="true" />
+    <frame x="72" y="31" width="2460" height="1369" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26590538" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26530612" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28711256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34615386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1806841" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18527709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26609105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -533,49 +692,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/LinearFlow.scala</url>
+          <line>24</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <marker date="1510546169000" expanded="true" signature="661:1295" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/Dependencies.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Flow.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25755">
-          <caret line="1515" column="6" lean-forward="false" selection-start-line="1515" selection-start-column="6" selection-end-line="1515" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/common/Common.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +725,7 @@
         <state relative-caret-position="1326">
           <caret line="78" column="9" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="34" />
           <folding>
-            <element signature="e#55#84#0" expanded="true" />
+            <element signature="e#55#84#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -601,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1510546169000" expanded="true" signature="661:1295" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <marker date="1510546169000" expanded="true" signature="661:1295" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,28 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/hope/akka/wordcounter/WordCounterActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/akka/src/main/main3.iml" />
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/hope/akka/wordcounter/MainApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/hope/akka/wordcounter/StringCounterActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -744,13 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/test/scala/org/jamieallen/effectiveakka/common/CommonStubs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -807,9 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <marker date="1510546169000" expanded="true" signature="661:1295" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,19 +916,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/dependencies.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="69" lean-forward="true" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/dependencies.sbt" />
     <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/common/Common.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,12 +932,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Flow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="747" column="29" lean-forward="false" selection-start-line="747" selection-start-column="29" selection-end-line="747" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/FlightDelayStreaming.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#55#84#0" expanded="true" />
+            <element signature="e#55#84#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/LinearFlow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/hope/akka/wordcounter/MainApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#285#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.4-sources.jar!/akka/pattern/AskSupport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/test/scala/org/jamieallen/effectiveakka/common/CommonStubs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/hope/akka/wordcounter/WordCounterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/hope/akka/wordcounter/StringCounterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/concurrency/Futures1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#107#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -871,44 +1026,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/concurrency/Futures1.scala">
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/concurrency/future/callback/FutureCallback1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="242">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamSynchBasic.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#107#148#0" expanded="false" />
+            <element signature="e#34#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/concurrency/future/callback/FutureCallback1.scala">
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamSynchBasic2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchBasic.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="59" />
-          <folding />
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#34#93#0" expanded="true" />
+            <element signature="e#299#322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Flow.scala">
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchGraph.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="747" column="29" lean-forward="true" selection-start-line="747" selection-start-column="29" selection-end-line="747" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/LinearFlow.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <folding>
+            <element signature="e#34#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/Chapter61WhtTaxStatusCesiumCheck.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="e#23#96#0" expanded="true" />
             <element signature="e#175#204#0" expanded="true" />

@@ -13,6 +13,14 @@ object LinearFlow {
   implicit val materializer = ActorMaterializer()
 
   def main(args: Array[String]): Unit = {
+    val list = List(1, 2, 3)
+    val string: List[String] = list.map(
+      l => {
+        val newL = s"""(<party#Org> "$l")"""
+        newL
+      }
+    )
+    println(string.mkString("\n"))
 
     val g: RunnableGraph[_] = RunnableGraph.fromGraph(GraphDSL.create() {
       implicit builder =>
