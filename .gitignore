@@ -10,5 +10,6 @@ akka/src/main/resources/2008.csv
 .cache-main
 .cache-tests
 .DS_Store
+.idea/uiDesigner.xml
 !.idea/workspace.xml
 !.idea/tasks.xml
