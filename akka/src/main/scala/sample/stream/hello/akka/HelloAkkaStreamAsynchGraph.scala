@@ -28,12 +28,13 @@ object HelloAkkaStreamAsynchGraph {
     })
     graph.run()
   }
-}
 
-class Capitalizer extends Actor with ActorLogging {
-  def receive = {
-    case str : String =>
-      log.info(s"Capitalizing $str")
-      sender ! str.capitalize
+  class Capitalizer extends Actor with ActorLogging {
+    def receive = {
+      case str : String =>
+        log.info(s"Capitalizing $str")
+        sender ! str.capitalize
+    }
   }
 }
+
