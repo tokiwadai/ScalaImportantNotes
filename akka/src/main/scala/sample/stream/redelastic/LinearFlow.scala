@@ -1,4 +1,4 @@
-package sample.stream
+package sample.stream.redelastic
 
 object LinearFlow {
 

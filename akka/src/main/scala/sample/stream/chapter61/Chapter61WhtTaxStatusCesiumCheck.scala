@@ -1,5 +1,6 @@
-package sample.stream
+package sample.stream.chapter61
 
+import akka.NotUsed
 import akka.stream.scaladsl.{Flow, GraphDSL, RunnableGraph, Sink, Source}
 
 import scala.concurrent.Future
@@ -16,8 +17,6 @@ object Chapter61WhtTaxStatusCesiumCheck {
   implicit val materializer = ActorMaterializer()
 
   def main(args: Array[String]): Unit = {
-
-    // @formatter:off
     val g = RunnableGraph.fromGraph(GraphDSL.create() {
       implicit builder =>
         import GraphDSL.Implicits._
@@ -29,20 +28,12 @@ object Chapter61WhtTaxStatusCesiumCheck {
         val B: FlowShape[String, Seq[String]] = builder.add(queryCesiumByBatches)
         val C = builder.add(analyzeResult)
         val D: Inlet[Any] = builder.add(Sink.ignore).in
-        //        val C: FlowShape[FlightEvent, FlightDelayRecord] = builder.add(filterAndConvert)
-        //        val D: UniformFanOutShape[FlightDelayRecord, FlightDelayRecord] = builder.add(Broadcast[FlightDelayRecord](2))
-        //        val F: FlowShape[FlightDelayRecord, (String, Int, Int)] = builder.add(averageCarrierDelay)
-
-        // Sinks
-        //        val E: Inlet[Any] = builder.add(Sink.ignore).in
-        //        val G: Inlet[Any] = builder.add(Sink.foreach(averageSink)).in
 
         // Graph
         A ~> B ~> C ~> D
 
         ClosedShape
     })
-    // @formatter:on
     g.run()
 
   }
@@ -53,7 +44,7 @@ object Chapter61WhtTaxStatusCesiumCheck {
   import scala.concurrent.ExecutionContext.Implicits.global
   import scala.concurrent.duration._
 
-  val queryCesiumByBatches = Flow[String]
+  val queryCesiumByBatches: Flow[String, Seq[String], NotUsed] = Flow[String]
     .groupedWithin(10, 1 second)
     .mapAsync(3) {
       x =>
@@ -68,7 +59,7 @@ object Chapter61WhtTaxStatusCesiumCheck {
     }
 
   val analyzeResult = Flow[Seq[String]]
-      .map {
-        x => println(s"x: $x")
-      }
+    .map {
+      x => println(s"x: $x")
+    }
 }

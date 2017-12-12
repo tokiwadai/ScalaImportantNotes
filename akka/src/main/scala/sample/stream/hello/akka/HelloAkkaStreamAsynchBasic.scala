@@ -1,6 +1,6 @@
 package sample.stream.hello.akka
 
-import akka.actor.{Actor, ActorLogging, ActorSystem, Props}
+import akka.actor.{ActorSystem, Props}
 import akka.routing.RoundRobinPool
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Flow, Sink, Source}
@@ -27,10 +27,3 @@ object HelloAkkaStreamAsynchBasic {
   }
 }
 
-class Capitalizer extends Actor with ActorLogging {
-  def receive = {
-    case str : String =>
-      log.info(s"Capitalizing $str")
-      sender ! str.capitalize
-  }
-}

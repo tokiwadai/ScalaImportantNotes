@@ -4,6 +4,7 @@ object Dependencies {
   // Versions
   lazy val akkaVersion = "2.5.4"
   lazy val akkaHttpVersion = "10.0.10"
+  lazy val twitVersion = "4.+"
 
   // Libraries
   val akkaActor = "com.typesafe.akka" %% "akka-actor" % akkaVersion
@@ -20,7 +21,7 @@ object Dependencies {
   val ioSwagger = "io.swagger" % "swagger-jaxrs" % "1.5.16"
   val swaggerAkka = "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.11.0"
   val httpCors = "ch.megard" %% "akka-http-cors" % "0.2.1"
-
+  val twitter = "org.twitter4j" % "twitter4j-stream" % twitVersion
 
   val scalatest = "org.scalatest" %% "scalatest" % "3.0.4"
   val scalacheck = "org.scalacheck" %% "scalacheck" % "1.13.5"
@@ -34,7 +35,7 @@ object Dependencies {
   val backendDeps =
   Seq(akkaActor,
     specs2core % Test, scalatest, scalacheck % Test, scalameter % Test, junit % Test, scalatic % Test)
-  val akkaDeps = Seq(akkaActor, akkaTestkit, akkaStreamDep)
+  val akkaDeps = Seq(akkaActor, akkaTestkit, akkaStreamDep, twitter)
   val akkaHttpDeps = Seq(akkaHttpSprayJson, akkaStreamDep, akkaHttpDep)
   val akkaSwaggerDeps = akkaHttpDeps :+ ioSwagger :+ swaggerAkka :+ httpCors
 }

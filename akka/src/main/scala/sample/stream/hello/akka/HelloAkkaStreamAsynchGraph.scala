@@ -1,9 +1,10 @@
 package sample.stream.hello.akka
 
-import akka.actor.{Actor, ActorLogging, ActorSystem, Props}
+import akka.NotUsed
+import akka.actor.{ActorSystem, Props}
 import akka.routing.RoundRobinPool
-import akka.stream.{ActorMaterializer, ClosedShape}
 import akka.stream.scaladsl.{Flow, GraphDSL, RunnableGraph, Sink, Source}
+import akka.stream.{ActorMaterializer, ClosedShape}
 
 object HelloAkkaStreamAsynchGraph {
 
@@ -21,20 +22,13 @@ object HelloAkkaStreamAsynchGraph {
       import GraphDSL.Implicits._
       val source = Source(List("hello","from","akka","streams!"))
       val sink = Sink.foreach(actorSystem.log.info)
-      val flow = Flow[String].mapAsyncUnordered(parallelism = 5)(elem => (capitalizer ? elem).mapTo[String])
+      val flow: Flow[String, String, NotUsed] = Flow[String]
+        .mapAsyncUnordered(parallelism = 5)(elem => (capitalizer ? elem).mapTo[String])
       source ~> flow ~> sink
 
       ClosedShape
     })
     graph.run()
-  }
-
-  class Capitalizer extends Actor with ActorLogging {
-    def receive = {
-      case str : String =>
-        log.info(s"Capitalizing $str")
-        sender ! str.capitalize
-    }
   }
 }
 

@@ -1,12 +1,18 @@
-package sample.stream
+package sample.stream.redelastic
+
+import java.io.File
+
+import akka.NotUsed
 
 object FlightDelayStreaming {
+
   import akka.actor.ActorSystem
   import akka.stream._
   import akka.stream.scaladsl._
+
+  import scala.concurrent.ExecutionContext.Implicits._
   import scala.concurrent.Future
   import scala.util.Try
-  import scala.concurrent.ExecutionContext.Implicits._
 
   // implicit actor system
   implicit val system = ActorSystem("Sys")
@@ -53,11 +59,27 @@ object FlightDelayStreaming {
     }
   }
 
-  val flightDelayLines: Iterator[String] = scala.io.Source.fromFile(
-    "/Users/oWen/Documents/scalaProjects/scalaPrinciples/ImportantNotes/akka/src/main/resources/2008.csv", "UTF-8").getLines()
+  def getListOfFiles(dir: String): List[File] = {
+    val d = new File(dir)
+    if (d.exists && d.isDirectory) {
+      d.listFiles.filter(_.isFile).toList
+    } else {
+      List[File]()
+    }
+  }
+
+  val directory = "/Users/oWen/Documents/scalaProjects/scalaPrinciples/ImportantNotes/akka/src/main/resources/files"
+
+  val flightDelayLines: Iterator[String] = scala.io.Source.fromFile(s"$directory/2008.csv", "UTF-8").getLines()
+
+  val fileToCesiumID: Flow[File, Iterator[String], NotUsed] = Flow[File]
+    .map(
+      (file: java.io.File) =>
+        scala.io.Source.fromFile(s"$directory/${file.getName}", "UTF-8").getLines()
+    )
 
   // immutable flow step to split apart our csv into a string array and transform each array into a FlightEvent
-  val csvToFlightEvent = Flow[String]
+  val csvToFlightEvent: Flow[String, FlightEvent, NotUsed] = Flow[String]
     .map(_.split(",").map(_.trim)) // we now have our columns split by ","
     .map(stringArrayToFlightEvent) // we convert an array of columns to a FlightEvent
 

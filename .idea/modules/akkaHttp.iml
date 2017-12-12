@@ -22,6 +22,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.5.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-stream:4.0.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-core:4.0.6:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-matcher_2.11:2.5:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-core_2.11:2.5:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-common_2.11:2.5:jar" level="project" />
