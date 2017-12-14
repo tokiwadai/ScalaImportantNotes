@@ -2,8 +2,10 @@ package sample.stream.chapter61
 
 import java.io.File
 
-import akka.NotUsed
+import akka.{Done, NotUsed}
 import akka.stream.scaladsl.{Flow, GraphDSL, Sink, Source}
+
+import scala.concurrent.Future
 
 object Chapter61WhtTaxStatusCesiumCheck3 extends Chapter61WhtTaxStatusCesiumCheckUtils {
 
@@ -16,7 +18,7 @@ object Chapter61WhtTaxStatusCesiumCheck3 extends Chapter61WhtTaxStatusCesiumChec
   implicit val materializer = ActorMaterializer()
 
   def main(args: Array[String]): Unit = {
-    val g1: Flow[String, Unit, NotUsed] = Flow.fromGraph(
+    val g: Flow[String, Unit, NotUsed] = Flow.fromGraph(
       GraphDSL.create() {
         implicit builder =>
           import GraphDSL.Implicits._
@@ -29,19 +31,22 @@ object Chapter61WhtTaxStatusCesiumCheck3 extends Chapter61WhtTaxStatusCesiumChec
     )
 
     val files: Source[File, NotUsed] = Source(fileNames)
-    val lines: Source[Source[String, NotUsed], NotUsed] =
-      files.map(file => {
-        val A: Source[String, NotUsed] = Source.fromIterator(
-          () => {
-            val lines = scala.io.Source.fromFile(s"$directory/${file.getName}", "UTF-8").getLines
-            lines
-          }
-        )
-        A
-      })
+    val lines: Source[Source[String, NotUsed], NotUsed] = files.map(file => {
+      val A: Source[String, NotUsed] = Source.fromIterator(
+        () => {
+          val result: Iterator[String] =
+            scala.io.Source.fromFile(s"$directory/${file.getName}", "UTF-8").getLines
+          result
+        }
+      )
+      A
+    })
 
-    val done = lines.runForeach(
-      (src: Source[String, NotUsed]) => g1.runWith(src, Sink.ignore)
+    val done: Future[Done] = lines.runForeach(
+      (src: Source[String, NotUsed]) => {
+        val res: (NotUsed, Future[Done]) = g.runWith(src, Sink.ignore)
+        res
+      }
     )
     //    implicit val ec = system.dispatcher
     //    done.onComplete(_ => system.terminate())

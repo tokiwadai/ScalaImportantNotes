@@ -32,21 +32,20 @@ trait Chapter61WhtTaxStatusCesiumCheckUtils {
   import scala.concurrent.duration._
 
   val queryCesiumByBatches: Flow[String, Seq[String], NotUsed] = Flow[String]
-    .groupedWithin(10, 100 millisecond)
-    .mapAsync(4) {
-      x =>
-        Future[Seq[String]] {
-          synchronized {
-            println("=============")
-            println(s"queryCesiumByBatches: $x")
-            println("ooooooooooooo")
-            x
-          }
+    .groupedWithin(1000, 100 millisecond)
+    .mapAsync(4)(x =>
+      Future[Seq[String]] {
+        synchronized {
+          println("=============")
+          println(s"queryCesiumByBatches: $x")
+          println("ooooooooooooo")
+          x
         }
-    }
+      }
+    )
 
   val analyzeResult: Flow[Seq[String], Unit, NotUsed] = Flow[Seq[String]]
     .map {
-      x => println(s"analyzeResult: $x")
+      x => println(s"analyzeResult: x.size [${x.size}] x [$x]")
     }
 }

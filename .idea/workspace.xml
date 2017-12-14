@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da604f9-b6e6-40f3-b366-005392430a79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/akka/src/main/resources/files/2008.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck0.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/Chapter61WhtTaxStatusCesiumCheck.scala" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/akka/src/main/resources/test.csv" afterPath="$PROJECT_DIR$/akka/src/main/resources/files/test.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/FlightDelayStreaming.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/redelastic/FlightDelayStreaming.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/LinearFlow.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/redelastic/LinearFlow.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akka-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/akka-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akka.iml" afterPath="$PROJECT_DIR$/.idea/modules/akka.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttp-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttp-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttp.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger.iml" afterPath="$PROJECT_DIR$/.idea/modules/akkaHttpSwagger.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/core-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/core-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/resources/application.conf" afterPath="$PROJECT_DIR$/akka/src/main/resources/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchBasic.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchBasic.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchGraph.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchGraph.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Dependencies.scala" afterPath="$PROJECT_DIR$/project/Dependencies.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/resources/files/test.csv" afterPath="$PROJECT_DIR$/akka/src/main/resources/files/test.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/SimpleSource.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/SimpleSource.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck3.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck3.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheckUtils.scala" afterPath="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheckUtils.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,43 +44,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42815676">
+    <splitter split-orientation="horizontal" split-proportion="0.48887622">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LinearFlow.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/redelastic/LinearFlow.scala">
+          <file leaf-file-name="MultipleFilesStream.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/MultipleFilesStream.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Chapter61WhtTaxStatusCesiumCheck3.scala" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck3.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="26" />
+                <state relative-caret-position="680">
+                  <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
                   <folding>
-                    <element signature="e#33#52#0" expanded="true" />
-                    <element signature="e#226#255#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="AkkaStreamTweet.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/twitter/AkkaStreamTweet.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#39#58#0" expanded="true" />
+                    <element signature="e#33#58#0" expanded="true" />
+                    <element signature="e#319#348#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -103,8 +63,8 @@
           <file leaf-file-name="Chapter61WhtTaxStatusCesiumCheckUtils.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheckUtils.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="536">
-                  <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+                <state relative-caret-position="578">
+                  <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
                   <folding>
                     <element signature="e#33#52#0" expanded="true" />
                     <element signature="e#822#879#0" expanded="true" />
@@ -113,21 +73,54 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DurationConversions.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/concurrent/duration/DurationConversions.scala">
+          <file leaf-file-name="Chapter61WhtTaxStatusCesiumCheck3.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck3.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-                  <folding />
+                <state relative-caret-position="510">
+                  <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#33#52#0" expanded="true" />
+                    <element signature="e#266#295#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/concurrent/duration/package.scala">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Chapter61WhtTaxStatusCesiumCheck4.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck4.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="24" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#33#58#0" expanded="true" />
+                    <element signature="e#318#347#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Chapter61WhtTaxStatusCesiumCheck5.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck5.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="714">
+                  <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#33#52#0" expanded="true" />
+                    <element signature="e#267#296#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Source.scala" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Source.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="313">
+                  <caret line="208" column="6" lean-forward="false" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -148,13 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/akka/src/main/scala/com/org/jamieallen/effectiveakka/common/Common.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/common/Common.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/extra/AccountBalanceRetriever1.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever3.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetrieverFinal.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/stuntdouble/StuntDouble.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/cameo/Cameo.scala" />
         <option value="$PROJECT_DIR$/akka/src/test/scala/org/jamieallen/effectiveakka/pattern/cameo/CameoSpec.scala" />
         <option value="$PROJECT_DIR$/akka/src/test/scala/org/jamieallen/effectiveakka/pattern/extra/ExtraFinalSpec.scala" />
@@ -186,7 +172,6 @@
         <option value="$PROJECT_DIR$/project/Dependencies.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/AkkaStreamTweet.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/twitter/Tweet.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/SimpleSource.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/resources/twitter.conf" />
         <option value="$PROJECT_DIR$/akka/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/twitter/TwitterClient.scala" />
@@ -195,15 +180,25 @@
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck1.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck2.scala" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck0.scala" />
-        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheckUtils.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/FilesReadFlowSample.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/customFlow/AccumulateWhileUnchanged.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/customFlow/SampleElements.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/SimpleSource.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/Sample4.scala" />
+        <option value="$PROJECT_DIR$/akka-http/src/main/scala/com/hope/akkaHttp/sample/Sample4.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/MultipleFilesStream.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/resources/files/test.csv" />
         <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck3.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck4.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheckUtils.scala" />
+        <option value="$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck5.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="16" />
     <option name="y" value="31" />
-    <option name="width" value="2516" />
+    <option name="width" value="2124" />
     <option name="height" value="1357" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -303,43 +298,52 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="akka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="akka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="chapter61" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="akka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="redelastic" type="462c0819:PsiDirectoryNode" />
+              <item name="akka-http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
               <item name="akka-http" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka-http" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka-http" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka-http" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akkaHttp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImportantNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="akka-http" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akkaHttp" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -354,6 +358,32 @@
             <path>
               <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: com.typesafe.akka:akka-stream_2.11:2.5.4:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: com.typesafe.akka:akka-stream_2.11:2.5.4:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="akka-stream_2.11-2.5.4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: com.typesafe.akka:akka-stream_2.11:2.5.4:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="akka-stream_2.11-2.5.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: com.typesafe.akka:akka-stream_2.11:2.5.4:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="akka-stream_2.11-2.5.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImportantNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -441,6 +471,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/akka/src/main/resources/files" />
+      <recent name="$PROJECT_DIR$/akka/src/main/resources" />
       <recent name="$PROJECT_DIR$/akka/src/main/scala/" />
     </key>
   </component>
@@ -456,38 +487,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Chapter61WhtTaxStatusCesiumCheck3">
-    <configuration name="AkkaStreamTweet" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.stream.akka.io.twitter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.stream.akka.io.twitter.AkkaStreamTweet" />
-      <option name="VM_PARAMETERS" value="-Dconfiguration=twitter.conf" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="akka" />
-      <envs />
-      <method>
-        <option name="Make" enabled="false" />
-        <option name="MakeNoErrorCheck" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Chapter61WhtTaxStatusCesiumCheck" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Chapter61WhtTaxStatusCesiumCheck5">
+    <configuration name="Chapter61WhtTaxStatusCesiumCheck3" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="sample.stream.chapter61.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.stream.chapter61.Chapter61WhtTaxStatusCesiumCheck" />
+      <option name="MAIN_CLASS_NAME" value="sample.stream.chapter61.Chapter61WhtTaxStatusCesiumCheck3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -499,14 +507,14 @@
       <module name="akka" />
       <envs />
     </configuration>
-    <configuration name="Chapter61WhtTaxStatusCesiumCheck1" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Chapter61WhtTaxStatusCesiumCheck4" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="sample.stream.chapter61.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.stream.chapter61.Chapter61WhtTaxStatusCesiumCheck1" />
+      <option name="MAIN_CLASS_NAME" value="sample.stream.chapter61.Chapter61WhtTaxStatusCesiumCheck4" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -522,14 +530,47 @@
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter61WhtTaxStatusCesiumCheck2" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Chapter61WhtTaxStatusCesiumCheck5" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="sample.stream.chapter61.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.stream.chapter61.Chapter61WhtTaxStatusCesiumCheck2" />
+      <option name="MAIN_CLASS_NAME" value="sample.stream.chapter61.Chapter61WhtTaxStatusCesiumCheck5" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="akka" />
+      <envs />
+    </configuration>
+    <configuration name="MultipleFilesStream" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.stream.chapter61.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.stream.chapter61.MultipleFilesStream" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="akka" />
+      <envs />
+    </configuration>
+    <configuration name="SampleElements" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="sample.stream.akka.io.customFlow.SampleElements" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -545,14 +586,14 @@
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter61WhtTaxStatusCesiumCheck3" type="Application" factoryName="Application" temporary="true">
+    <configuration name="SimpleSource" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sample.stream.chapter61.*" />
+          <option name="PATTERN" value="com.hope.akkaHttp.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.stream.chapter61.Chapter61WhtTaxStatusCesiumCheck3" />
+      <option name="MAIN_CLASS_NAME" value="sample.stream.akka.io.SimpleSource" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -645,20 +686,21 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AkkaStreamTweet" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck3" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.SampleElements" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck3" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SimpleSource" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck4" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MultipleFilesStream" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AkkaStreamTweet" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck5" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck4" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Chapter61WhtTaxStatusCesiumCheck3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MultipleFilesStream" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SimpleSource" />
       </list>
     </recent_temporary>
   </component>
@@ -738,7 +780,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="31" width="2516" height="1357" extended-state="0" />
+    <frame x="16" y="31" width="2124" height="1357" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -752,15 +794,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26545167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2646593" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21315372" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25515056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22424723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16451092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15802114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -796,119 +838,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/Shape.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="292" column="7" lean-forward="false" selection-start-line="292" selection-start-column="7" selection-end-line="292" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/Chapter61WhtTaxStatusCesiumCheck1" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Flow.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="1703" column="72" lean-forward="true" selection-start-line="1703" selection-start-column="72" selection-end-line="1703" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factorials.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-853">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/ActorMaterializer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="169" column="3" lean-forward="true" selection-start-line="169" selection-start-column="3" selection-end-line="169" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factorial2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-853">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/extra/AccountBalanceRetriever1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/org/jamieallen/effectiveakka/pattern/stuntdouble/StuntDouble.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/lightbend/akka/sample/tut1/StartStopApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/lightbend/akka/sample/AccountBalance.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/hope/akka/wordcounter/WordCounterActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/com/hope/akka/wordcounter/StringCounterActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/Capitalizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchBasic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamAsynchGraph.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamSynchBasic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/hello/akka/HelloAkkaStreamSynchBasic2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="82" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/Dependencies.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -995,42 +924,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Source.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="246" column="40" lean-forward="false" selection-start-line="246" selection-start-column="40" selection-end-line="246" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/immutable/Seq.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/Seq.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/Iterable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1075,75 +972,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/SimpleSource.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="e#31#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/redelastic/FlightDelayStreaming.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="68" selection-end-column="3" />
           <folding>
-            <element signature="e#34#53#0" expanded="true" />
-            <element signature="e#109#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-            <element signature="e#241#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-            <element signature="e#1167#1224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck0.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-            <element signature="e#292#321#0" expanded="true" />
-            <element signature="e#1384#1436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="true" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding>
-            <element signature="e#194#223#0" expanded="true" />
+            <element signature="e#34#53#0" expanded="false" />
+            <element signature="e#109#138#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1153,7 +988,7 @@
         <state relative-caret-position="289">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#39#68#0" expanded="true" />
+            <element signature="e#39#68#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1163,16 +998,8 @@
         <state relative-caret-position="187">
           <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
-            <element signature="e#39#58#0" expanded="true" />
+            <element signature="e#39#58#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/redelastic/LinearFlow.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,24 +1019,278 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck3.scala">
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="595">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#52#0" expanded="false" />
+            <element signature="e#1167#1224#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/redelastic/LinearFlow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/FilesReadFlowSample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#33#52#0" expanded="false" />
+            <element signature="e#1084#1141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
             <element signature="e#33#52#0" expanded="true" />
-            <element signature="e#226#255#0" expanded="true" />
+            <element signature="e#241#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#194#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck0.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+          <folding>
+            <element signature="e#33#52#0" expanded="true" />
+            <element signature="e#292#321#0" expanded="true" />
+            <element signature="e#1384#1436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/Seq.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/stage/GraphStage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="801" column="22" lean-forward="false" selection-start-line="801" selection-start-column="22" selection-end-line="801" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/parallel/immutable/ParSeq.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/immutable/Seq.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/customFlow/SampleElements.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/customFlow/AccumulateWhileUnchanged.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="26" column="66" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+          <folding>
+            <element signature="e#42#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/akka/io/SimpleSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.8-sources.jar!/scala/reflect/io/Path.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="86" column="10" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Flow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="96" column="6" lean-forward="false" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka-http/src/main/scala/com/hope/akkaHttp/sample/Sample4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="e#34#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Sink.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/concurrent/ExecutionContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.4-sources.jar!/akka/util/ByteString.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="660" column="36" lean-forward="true" selection-start-line="660" selection-start-column="36" selection-end-line="660" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Framing.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/MultipleFilesStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <folding>
+            <element signature="e#33#58#0" expanded="true" />
+            <element signature="e#319#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/resources/files/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#33#58#0" expanded="true" />
+            <element signature="e#318#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/impl/io/IOSources.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/FileIO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="83" selection-end-line="75" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#52#0" expanded="true" />
+            <element signature="e#266#295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheckUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        <state relative-caret-position="578">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="e#33#52#0" expanded="true" />
             <element signature="e#822#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.4-sources.jar!/akka/stream/scaladsl/Source.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="208" column="6" lean-forward="false" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akka/src/main/scala/sample/stream/chapter61/Chapter61WhtTaxStatusCesiumCheck5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#52#0" expanded="true" />
+            <element signature="e#267#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
