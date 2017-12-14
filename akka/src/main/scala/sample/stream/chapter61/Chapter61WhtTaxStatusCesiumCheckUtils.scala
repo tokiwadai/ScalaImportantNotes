@@ -9,7 +9,8 @@ import scala.concurrent.Future
 
 trait Chapter61WhtTaxStatusCesiumCheckUtils {
 
-  val directory = "/Users/oWen/Documents/scalaProjects/scalaPrinciples/ImportantNotes/akka/src/main/resources/files"
+  val directory = "/Users/oWen/Documents/scalaProjects/scalaPrinciples/ImportantNotes/" +
+    "akka/src/main/resources/files"
 
   val readCesiumIdFileFlow: Flow[File, Iterator[String], NotUsed] = Flow[File]
     .map { file => readCesiumIdFile(file) }

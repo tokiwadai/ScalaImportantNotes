@@ -27,7 +27,7 @@ object Chapter61WhtTaxStatusCesiumCheck5 extends Chapter61WhtTaxStatusCesiumChec
           val A: FlowShape[File, String] = builder.add(Flow[File]
             .flatMapConcat { file =>
               val result: Iterator[String] =
-                scala.io.Source.fromFile(s"$directory/${file.getName}", "UTF-8").getLines
+                scala.io.Source.fromFile(s"${file.getAbsolutePath}", "UTF-8").getLines
               Source.fromIterator(() => result)
             }
           )
@@ -41,8 +41,8 @@ object Chapter61WhtTaxStatusCesiumCheck5 extends Chapter61WhtTaxStatusCesiumChec
 
     val files: Source[File, NotUsed] = Source(fileNames)
 
-    val res: (NotUsed, Future[Done]) = g.runWith(files, Sink.ignore)
+    val (res: NotUsed, done: Future[Done]) = g.runWith(files, Sink.ignore)
     implicit val ec = system.dispatcher
-    res._2.onComplete(_ => system.terminate())
+    done.onComplete(_ => system.terminate())
   }
 }
