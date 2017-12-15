@@ -1,8 +1,8 @@
-package sample.stream.chapter61
+package sample.stream.multipleFilesReader
 
 import akka.stream.scaladsl.{GraphDSL, RunnableGraph, Sink, Source}
 
-object Chapter61WhtTaxStatusCesiumCheck2 extends Chapter61WhtTaxStatusCesiumCheckUtils {
+object MultipleFilesStreamReader2 extends MultipleFilesStreamReaderUtils {
 
   import akka.actor.ActorSystem
   import akka.stream._

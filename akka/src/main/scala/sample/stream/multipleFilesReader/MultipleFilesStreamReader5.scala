@@ -1,4 +1,4 @@
-package sample.stream.chapter61
+package sample.stream.multipleFilesReader
 
 import java.io.File
 
@@ -8,7 +8,7 @@ import akka.{Done, NotUsed}
 import scala.concurrent.Future
 
 
-object Chapter61WhtTaxStatusCesiumCheck5 extends Chapter61WhtTaxStatusCesiumCheckUtils {
+object MultipleFilesStreamReader5 extends MultipleFilesStreamReaderUtils {
 
   import akka.actor.ActorSystem
   import akka.stream._
@@ -28,7 +28,8 @@ object Chapter61WhtTaxStatusCesiumCheck5 extends Chapter61WhtTaxStatusCesiumChec
             .flatMapConcat { file =>
               val result: Iterator[String] =
                 scala.io.Source.fromFile(s"${file.getAbsolutePath}", "UTF-8").getLines
-              Source.fromIterator(() => result)
+              val src: Source[String, NotUsed] = Source.fromIterator(() => result)
+              src
             }
           )
           val B: FlowShape[String, Seq[String]] = builder.add(queryCesiumByBatches)

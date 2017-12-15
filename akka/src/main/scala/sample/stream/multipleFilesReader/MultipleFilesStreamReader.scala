@@ -1,11 +1,11 @@
-package sample.stream.chapter61
+package sample.stream.multipleFilesReader
 
 import akka.NotUsed
 import akka.stream.scaladsl.{Flow, GraphDSL, RunnableGraph, Sink, Source}
 
 import scala.concurrent.Future
 
-object Chapter61WhtTaxStatusCesiumCheck {
+object MultipleFilesStreamReader {
 
   import akka.actor.ActorSystem
   import akka.stream._

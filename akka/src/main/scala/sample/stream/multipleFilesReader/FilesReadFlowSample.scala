@@ -1,4 +1,4 @@
-package sample.stream.chapter61
+package sample.stream.multipleFilesReader
 
 import java.io.File
 

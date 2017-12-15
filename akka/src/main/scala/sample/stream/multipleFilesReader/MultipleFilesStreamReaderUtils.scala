@@ -1,4 +1,4 @@
-package sample.stream.chapter61
+package sample.stream.multipleFilesReader
 
 import java.io.File
 
@@ -7,7 +7,7 @@ import akka.stream.scaladsl.Flow
 
 import scala.concurrent.Future
 
-trait Chapter61WhtTaxStatusCesiumCheckUtils {
+trait MultipleFilesStreamReaderUtils {
 
   val directory = "/Users/oWen/Documents/scalaProjects/scalaPrinciples/ImportantNotes/" +
     "akka/src/main/resources/files"

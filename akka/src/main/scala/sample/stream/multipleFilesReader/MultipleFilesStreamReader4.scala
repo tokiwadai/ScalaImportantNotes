@@ -1,4 +1,4 @@
-package sample.stream.chapter61
+package sample.stream.multipleFilesReader
 
 import java.nio.file.Path
 
@@ -9,7 +9,7 @@ import akka.util.ByteString
 import scala.concurrent.Future
 
 
-object Chapter61WhtTaxStatusCesiumCheck4 extends Chapter61WhtTaxStatusCesiumCheckUtils {
+object MultipleFilesStreamReader4 extends MultipleFilesStreamReaderUtils {
 
   import akka.actor.ActorSystem
   import akka.stream._

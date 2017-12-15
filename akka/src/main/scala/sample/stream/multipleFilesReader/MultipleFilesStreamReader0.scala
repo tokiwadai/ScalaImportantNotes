@@ -1,4 +1,4 @@
-package sample.stream.chapter61
+package sample.stream.multipleFilesReader
 
 import java.io.File
 
@@ -8,7 +8,7 @@ import akka.stream.scaladsl.{Flow, GraphDSL, Sink, Source}
 import scala.collection.immutable
 import scala.concurrent.Future
 
-object Chapter61WhtTaxStatusCesiumCheck0 extends Chapter61WhtTaxStatusCesiumCheckUtils {
+object MultipleFilesStreamReader0 extends MultipleFilesStreamReaderUtils {
 
   import akka.actor.ActorSystem
   import akka.stream._

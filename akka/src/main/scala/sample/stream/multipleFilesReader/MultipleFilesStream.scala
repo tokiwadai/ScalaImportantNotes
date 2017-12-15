@@ -1,11 +1,11 @@
-package sample.stream.chapter61
+package sample.stream.multipleFilesReader
 
 import java.nio.file.Path
 
 import akka.NotUsed
 import akka.stream.scaladsl.{FileIO, Flow, Framing, Keep, Sink, Source}
 import akka.util.ByteString
-import sample.stream.chapter61.Chapter61WhtTaxStatusCesiumCheck4.fileNames
+import sample.stream.multipleFilesReader.MultipleFilesStreamReader4.fileNames
 
 import scala.concurrent.Future
 
