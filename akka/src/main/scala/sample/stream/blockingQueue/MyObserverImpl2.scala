@@ -1,14 +1,12 @@
-package sample.stream.multipleFilesReader
+package sample.stream.blockingQueue
 
 import java.io.File
 
-import akka.stream.scaladsl.{Flow, GraphDSL, Sink, Source}
-import akka.{Done, NotUsed}
+import akka.NotUsed
+import akka.stream.scaladsl.{Flow, GraphDSL, Sink, Source, SourceQueueWithComplete}
+import sample.stream.multipleFilesReader.MultipleFilesStreamReader5.{analyzeResult, fileNames, queryCesiumByBatches}
 
-import scala.concurrent.Future
-
-
-object MultipleFilesStreamReader5 extends MultipleFilesStreamReaderUtils {
+object MyObserverImpl2 {
 
   import akka.actor.ActorSystem
   import akka.stream._
@@ -19,6 +17,7 @@ object MultipleFilesStreamReader5 extends MultipleFilesStreamReaderUtils {
   implicit val materializer = ActorMaterializer()
 
   def main(args: Array[String]): Unit = {
+
     val g: Flow[File, Unit, NotUsed] = Flow.fromGraph(
       GraphDSL.create() {
         implicit builder =>
@@ -40,10 +39,18 @@ object MultipleFilesStreamReader5 extends MultipleFilesStreamReaderUtils {
       }
     )
 
-    val files: Source[File, NotUsed] = Source(fileNames)
+    val bufferSize = 100
 
-    val (_: NotUsed, done: Future[Done]) = g.runWith(files, Sink.ignore)
-    implicit val ec = system.dispatcher
-    done.onComplete(_ => system.terminate())
+    //if the buffer fills up then this strategy drops the oldest elements
+    //upon the arrival of a new element.
+    val overflowStrategy = akka.stream.OverflowStrategy.backpressure
+
+    val sourceQueue: SourceQueueWithComplete[File] = Source
+      .queue(bufferSize, overflowStrategy)
+      .via(g)
+      .to(Sink.ignore)
+      .run()
+
+    fileNames.map(fileName => sourceQueue offer fileName)
   }
 }

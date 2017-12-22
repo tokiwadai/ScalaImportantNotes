@@ -1,4 +1,4 @@
-package `implicit`.function.`type`
+package implisit.funct1on.typ3
 
 import scala.collection.mutable.ListBuffer
 
@@ -41,7 +41,7 @@ object MyApp {
     x
   }
 
-  def main(args: Array[String]) = {
+  def main(args: Array[String]): Unit = {
     transaction {
       implicit thisTransaction =>
         val res = f1(args.length)
