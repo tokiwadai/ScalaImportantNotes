@@ -2,9 +2,11 @@ package sample.stream.blockingQueue
 
 import java.io.File
 
-import akka.NotUsed
 import akka.stream.scaladsl.{Flow, GraphDSL, Sink, Source, SourceQueueWithComplete}
+import akka.{Done, NotUsed}
 import sample.stream.multipleFilesReader.MultipleFilesStreamReader5.{analyzeResult, fileNames, queryCesiumByBatches}
+
+import scala.concurrent.Future
 
 object MyObserverImpl2 {
 
@@ -52,5 +54,9 @@ object MyObserverImpl2 {
       .run()
 
     fileNames.map(fileName => sourceQueue offer fileName)
+
+    val done: Future[Done] = sourceQueue.watchCompletion
+    implicit val ec = system.dispatcher
+    done.onComplete(_ => system.terminate)
   }
 }
