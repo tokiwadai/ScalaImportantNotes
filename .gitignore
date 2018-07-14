@@ -12,6 +12,7 @@ factorial*.txt
 .cache-main
 .cache-tests
 .DS_Store
+.idea
 .idea/
 .idea/*
 .idea/**
