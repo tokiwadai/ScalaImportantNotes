@@ -4,7 +4,9 @@ package org.jamieallen.effectiveakka.pattern.extra
 import org.jamieallen.effectiveakka.common._
 import akka.actor.{ Actor, ActorRef, Props }
 
-class AccountBalanceRetriever3(savingsAccounts: ActorRef, checkingAccounts: ActorRef, moneyMarketAccounts: ActorRef) extends Actor {
+class AccountBalanceRetriever3(savingsAccounts: ActorRef,
+                               checkingAccounts: ActorRef,
+                               moneyMarketAccounts: ActorRef) extends Actor {
   val checkingBalances, savingsBalances, mmBalances: Option[List[(Long, BigDecimal)]] = None
   var originalSender: Option[ActorRef] = None
   def receive = {

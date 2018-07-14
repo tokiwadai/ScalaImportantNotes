@@ -15,7 +15,7 @@ object FactorialThrottle {
     implicit val materializer = ActorMaterializer()
 
     val source: Source[Int, NotUsed] = Source(1 to 100)
-    val factorials = source.scan(BigInt(1))((acc, next) ⇒ acc * next)
+    val factorials: Source[BigInt, NotUsed] = source.scan(BigInt(1))((acc, next) ⇒ acc * next)
 
     import scala.concurrent.duration._
     val result: Future[Done] = factorials

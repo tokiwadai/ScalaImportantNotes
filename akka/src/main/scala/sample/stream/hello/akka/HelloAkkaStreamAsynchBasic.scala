@@ -1,5 +1,6 @@
 package sample.stream.hello.akka
 
+import akka.NotUsed
 import akka.actor.{ActorSystem, Props}
 import akka.routing.RoundRobinPool
 import akka.stream.ActorMaterializer
@@ -19,11 +20,13 @@ object HelloAkkaStreamAsynchBasic {
     val capitalizer = actorSystem.actorOf(Props[Capitalizer].withRouter(RoundRobinPool(10)))
     val source = Source(List("hello","from","akka","streams!"))
     val sink = Sink.foreach(actorSystem.log.info)
-    val flowOrdered = Flow[String].mapAsync(parallelism = 5)(elem => (capitalizer ? elem).mapTo[String])
-    val flowUnordered = Flow[String].mapAsyncUnordered(parallelism = 5)(elem => (capitalizer ? elem).mapTo[String])
+    val flowOrdered: Flow[String, String, NotUsed] = Flow[String].mapAsync(parallelism = 5)(elem => (capitalizer ? elem).mapTo[String])
+    val flowUnordered: Flow[String, String, NotUsed] =
+      Flow[String].mapAsyncUnordered(parallelism = 5)(elem => (capitalizer ? elem).mapTo[String])
 
     val stream = source.via(flowUnordered).to(sink)
-    stream.run()
+    stream.run
+    actorSystem.terminate
   }
 }
 

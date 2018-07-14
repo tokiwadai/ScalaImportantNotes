@@ -10,8 +10,8 @@ http://blog.kunicki.org/blog/2016/07/20/implementing-a-custom-akka-streams-graph
 final class AccumulateWhileUnchanged[E, P](propertyExtractor: E => P)
   extends GraphStage[FlowShape[E, Seq[E]]] {
 
-  val in = Inlet[E]("AccumulateWhileUnchanged.in")
-  val out = Outlet[Seq[E]]("AccumulateWhileUnchanged.out")
+  val in: Inlet[E] = Inlet[E]("AccumulateWhileUnchanged.in")
+  val out: Outlet[Seq[E]] = Outlet[Seq[E]]("AccumulateWhileUnchanged.out")
 
   override def shape = FlowShape(in, out)
 
