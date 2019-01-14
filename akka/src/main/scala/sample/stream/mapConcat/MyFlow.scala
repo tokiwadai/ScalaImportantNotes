@@ -10,7 +10,7 @@ import scala.concurrent.{ExecutionContext, Future}
 
 object MyFlow {
 
-  def getGraph(implicit ec: ExecutionContext) = Flow.fromGraph(
+  def getFlow(implicit ec: ExecutionContext): Flow[Int, immutable.Seq[Int], NotUsed] = Flow.fromGraph(
     GraphDSL.create() {
       implicit builder =>
         import GraphDSL.Implicits._

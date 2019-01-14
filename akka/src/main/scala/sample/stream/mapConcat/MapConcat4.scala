@@ -21,15 +21,16 @@ object MapConcat4 {
   def main(args: Array[String]): Unit = {
     Try {
       val result: Future[List[Int]] = source
-        .via(MyFlow.getGraph)
+        .via(MyFlow.getFlow)
         .runFold(List[Int]())(_ ++ _)
       Await.result(result, 10 minute)
     } match {
       case Success(list) => println(s"temp2 [${list.size}]: $list")
       case Failure(e) => println(e)
     }
-    print("terminating system...")
+    println("terminating system...")
     system.terminate
-    //System.exit(0)
+    println("System.exit...")
+    System.exit(0)
   }
 }
