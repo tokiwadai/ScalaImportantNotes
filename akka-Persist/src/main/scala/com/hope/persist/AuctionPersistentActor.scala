@@ -1,4 +1,4 @@
-package com.test.persist
+package com.hope.persist
 
 import akka.actor.ActorLogging
 import akka.persistence.{PersistentActor, SnapshotOffer}

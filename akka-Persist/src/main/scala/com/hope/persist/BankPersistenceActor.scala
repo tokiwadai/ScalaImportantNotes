@@ -1,4 +1,4 @@
-package com.test.persist
+package com.hope.persist
 
 import akka.persistence.PersistentActor
 
