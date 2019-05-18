@@ -35,34 +35,34 @@ object Sample4 extends App {
   import system.dispatcher
   implicit val mat = ActorMaterializer()
 
-  val measurementsFlow =
-    Flow[Message].flatMapConcat { message =>
-      // handles both strict and streamed ws messages by folding
-      // the later into a single string (in memory)
-      message.asTextMessage.getStreamedText.fold("")(_ + _)
-    }
-      .groupedWithin(1000, 1.second)
-      .mapAsync(5)(Database.asyncBulkInsert)
-      .map(written => TextMessage("wrote up to: " + written.last))
-
-  val route =
-    path("measurements") {
-      get {
-        handleWebSocketMessages(measurementsFlow)
-      }
-    }
-
-  val futureBinding = Http().bindAndHandle(route, "127.0.0.1", 8080)
-
-  futureBinding.onComplete {
-    case Success(binding) =>
-      val address = binding.localAddress
-      println(s"Akka HTTP server running at ${address.getHostString}:${address.getPort}")
-
-    case Failure(ex) =>
-      println(s"Failed to bind HTTP server: ${ex.getMessage}")
-      ex.fillInStackTrace()
-
-  }
+//  val measurementsFlow =
+//    Flow[Message].flatMapConcat { message =>
+//      // handles both strict and streamed ws messages by folding
+//      // the later into a single string (in memory)
+//      message.asTextMessage.getStreamedText.fold("")(_ + _)
+//    }
+//      .groupedWithin(1000, 1.second)
+//      .mapAsync(5)(Database.asyncBulkInsert)
+//      .map(written => TextMessage("wrote up to: " + written.last))
+//
+//  val route =
+//    path("measurements") {
+//      get {
+//        handleWebSocketMessages(measurementsFlow)
+//      }
+//    }
+//
+//  val futureBinding = Http().bindAndHandle(route, "127.0.0.1", 8080)
+//
+//  futureBinding.onComplete {
+//    case Success(binding) =>
+//      val address = binding.localAddress
+//      println(s"Akka HTTP server running at ${address.getHostString}:${address.getPort}")
+//
+//    case Failure(ex) =>
+//      println(s"Failed to bind HTTP server: ${ex.getMessage}")
+//      ex.fillInStackTrace()
+//
+//  }
 
 }

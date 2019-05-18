@@ -17,12 +17,7 @@ object Dependencies {
   val ioSprayJsonDep = "io.spray" %% "spray-json" % "1.3.3"
   // https://mvnrepository.com/artifact/com.typesafe.akka/akka-http-spray-json_2.11
   val akkaHttpSprayJson = "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion
-  
-  val akkaPersistence = "com.typesafe.akka" %% "akka-persistence" % akkaVersion
-  val levelDB = "org.iq80.leveldb"            % "leveldb"          % "0.7"
-  val levelDBjni = "org.fusesource.leveldbjni"   % "leveldbjni-all"   % "1.8"
-  
-  
+
   val ioSwagger = "io.swagger" % "swagger-jaxrs" % "1.5.16"
   val swaggerAkka = "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.11.0"
   val httpCors = "ch.megard" %% "akka-http-cors" % "0.2.1"
@@ -35,13 +30,14 @@ object Dependencies {
   val scalatic = "org.scalactic" %% "scalactic" % "3.0.4"
   // https://mvnrepository.com/artifact/com.typesafe.akka/akka-testkit_2.11
   val akkaTestkit = "com.typesafe.akka" %% "akka-testkit" % akkaVersion
+  val liftjson = "net.liftweb" %% "lift-json" % "3.3.0"
+  val comLang3 = "org.apache.commons"% "commons-lang3" % "3.4"
 
   // Dependencies
   val backendDeps =
   Seq(akkaActor,
-    specs2core % Test, scalatest, scalacheck, scalameter % Test, junit, scalatic)
-  val akkaDeps = Seq(akkaActor, akkaTestkit, akkaStreamDep, twitter, akkaPersistence)
+    specs2core % Test, scalatest, scalacheck, scalameter % Test, junit, scalatic, comLang3)
+  val akkaDeps = Seq(akkaActor, akkaTestkit, akkaStreamDep, twitter)
   val akkaHttpDeps = Seq(akkaHttpSprayJson, akkaStreamDep, akkaHttpDep)
   val akkaSwaggerDeps = akkaHttpDeps :+ ioSwagger :+ swaggerAkka :+ httpCors
-  val akkaPersistDeps = Seq(akkaActor, akkaPersistence, levelDB, levelDBjni)
 }

@@ -48,10 +48,11 @@ object WebServer4 {
     val route =
       path("auction") {
         put {
-          parameter("bid".as[Int], "user") { (bid, user) =>
-            // place a bid, fire-and-forget
-            auction ! Bid(user, bid)
-            complete((StatusCodes.Accepted, "bid placed"))
+          parameter('bid.as[Int], 'user) {
+            (bid, user) =>
+              // place a bid, fire-and-forget
+              auction ! Bid(user, bid)
+              complete((StatusCodes.Accepted, "bid placed"))
           }
         } ~
           get {

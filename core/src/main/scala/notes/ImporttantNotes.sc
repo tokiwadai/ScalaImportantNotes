@@ -1,3 +1,5 @@
+import scala.annotation.tailrec
+
 object ImportantNotes {
   val list: List[Double] = List(400, 30, 2, 1)    //> list  : List[Double] = List(400.0, 30.0, 2.0, 1.0)
 

@@ -1,3 +1,5 @@
+package misc
+
 // https://docs.scala-lang.org/tutorials/FAQ/context-bounds.html
 object ImplicitlyExamples extends App {
   implicit val ordering = new Ordering[String]
