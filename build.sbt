@@ -11,7 +11,6 @@ lazy val root = (project in file("."))
     commonSettings
   )
 
-
 lazy val core = (project in file("core"))
   .settings(
     commonSettings,
@@ -30,7 +29,8 @@ lazy val akkaHttp = (project in file("akka-http"))
     commonSettings,
     libraryDependencies ++= backendDeps,
     libraryDependencies ++= akkaDeps,
-    libraryDependencies ++= akkaHttpDeps
+    libraryDependencies ++= akkaHttpDeps,
+    libraryDependencies ++= akkaPersistDeps
   )
 
 lazy val akkaHttpSwagger = (project in file("akka-http-swagger"))
@@ -40,4 +40,14 @@ lazy val akkaHttpSwagger = (project in file("akka-http-swagger"))
     libraryDependencies ++= akkaDeps,
     libraryDependencies ++= akkaHttpDeps,
     libraryDependencies ++= akkaSwaggerDeps
+  )
+
+
+lazy val akkaPersist = (project in file("akka-persist"))
+  .settings(
+    commonSettings,
+    libraryDependencies ++= backendDeps,
+    libraryDependencies ++= akkaDeps,
+    libraryDependencies ++= akkaHttpDeps,
+    libraryDependencies ++= akkaPersistDeps
   )
