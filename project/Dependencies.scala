@@ -35,6 +35,7 @@ object Dependencies {
   val scalatic = "org.scalactic" %% "scalactic" % "3.0.4"
   // https://mvnrepository.com/artifact/com.typesafe.akka/akka-testkit_2.11
   val akkaTestkit = "com.typesafe.akka" %% "akka-testkit" % akkaVersion
+  val akkaPertInMem = "com.github.dnvriend" %% "akka-persistence-inmemory" % "1.3.7"
 
   // Dependencies
   val backendDeps =
@@ -43,5 +44,5 @@ object Dependencies {
   val akkaDeps = Seq(akkaActor, akkaTestkit, akkaStreamDep, twitter, akkaPersistence)
   val akkaHttpDeps = Seq(akkaHttpSprayJson, akkaStreamDep, akkaHttpDep)
   val akkaSwaggerDeps = akkaHttpDeps :+ ioSwagger :+ swaggerAkka :+ httpCors
-  val akkaPersistDeps = Seq(akkaActor, akkaPersistence, levelDB, levelDBjni)
+  val akkaPersistDeps = Seq(akkaActor, akkaPersistence, levelDB, levelDBjni, akkaPertInMem)
 }

@@ -49,8 +49,8 @@ class AuctionPersistentActor  extends PersistentActor with ActorLogging {
     case "nuke"  =>
       log.warning("replicate throwing exception, nuke!!")
       throw new Exception("nuke")
-    case _  =>
-      log.warning("unknown command, ignored!!")
+    case other  =>
+      log.warning(s"unknown command, ignored!!, $other")
       throw new Exception("unknown command")
   }
 }
