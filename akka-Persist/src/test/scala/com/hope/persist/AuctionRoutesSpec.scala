@@ -3,6 +3,7 @@ package com.hope.persist
 import akka.actor.Props
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.testkit.ScalatestRouteTest
+import akka.testkit.TestKit
 import com.hope.persist.WebServerDemo.getAuctionRoute
 import com.hope.persist.fixtures.RestartableActor
 import org.scalatest.concurrent.ScalaFutures
@@ -10,6 +11,10 @@ import org.scalatest.{Matchers, WordSpec}
 
 class AuctionRoutesSpec  extends WordSpec with Matchers with ScalaFutures with ScalatestRouteTest {
   val auctionRoute2Test = getAuctionRoute(system.actorOf(Props[AuctionPersistentActor with RestartableActor]))
+
+  override def afterAll: Unit = {
+    TestKit.shutdownActorSystem(system)
+  }
 
   "auctionRoute" should {
     "return empty Bids list if no present (GET /auction)" in {
@@ -41,9 +46,7 @@ class AuctionRoutesSpec  extends WordSpec with Matchers with ScalaFutures with S
         entityAs[String] should ===("""command executed!""")
       }
     }
-  }
 
-  "auctionRoute2" should {
     "return Bids list if no present (PUT /auction?bid=20&user=to)" in {
       // note that there's no need for the host part in the uri:
       val request = HttpRequest(uri = "/auction?bid=20&user=to", method = HttpMethods.PUT)
