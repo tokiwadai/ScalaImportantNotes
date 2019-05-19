@@ -3,10 +3,6 @@ package com.hope.persist
 import akka.actor.ActorLogging
 import akka.persistence.{PersistentActor, SnapshotOffer}
 
-case class Bid(userId: String, offer: Int)
-case object GetBids
-case class Bids(bids: List[Bid])
-
 case class AuctionState(events: List[Bid] = Nil)  {
   def updated(evt: Bid): AuctionState = {
     println(s"append $evt")
@@ -16,7 +12,7 @@ case class AuctionState(events: List[Bid] = Nil)  {
   override def toString: String = events.reverse.toString
 }
 
-class AuctionPersistentActor  extends PersistentActor with ActorLogging {
+class AuctionPersistentActor  extends AuctionPersistentProxy with ActorLogging {
   private var state = AuctionState()
 
   def updateState(event: Bid): Unit =
@@ -49,8 +45,8 @@ class AuctionPersistentActor  extends PersistentActor with ActorLogging {
     case "nuke"  =>
       log.warning("replicate throwing exception, nuke!!")
       throw new Exception("nuke")
-    case other  =>
-      log.warning(s"unknown command, ignored!!, $other")
-      throw new Exception("unknown command")
+//    case other  =>
+//      log.warning(s"unknown command, ignored!!, other: $other")
+//      throw new Exception("unknown command")
   }
 }
