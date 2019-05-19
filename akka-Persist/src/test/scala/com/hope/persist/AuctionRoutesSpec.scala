@@ -1,19 +1,22 @@
 package com.hope.persist
 
+import akka.actor.Props
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.testkit.ScalatestRouteTest
+import com.hope.persist.WebServerDemo.getAuctionRoute
+import com.hope.persist.fixtures.RestartableActor
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.{Matchers, WordSpec}
-import WebServerDemo.auctionRoute
 
 class AuctionRoutesSpec  extends WordSpec with Matchers with ScalaFutures with ScalatestRouteTest {
+  val auctionRoute2Test = getAuctionRoute(system.actorOf(Props[AuctionPersistentActor with RestartableActor]))
 
   "auctionRoute" should {
     "return empty Bids list if no present (GET /auction)" in {
       // note that there's no need for the host part in the uri:
       val request = HttpRequest(uri = "/auction")
 
-      request ~> auctionRoute ~> check {
+      request ~> auctionRoute2Test ~> check {
         status should ===(StatusCodes.OK)
 
         // we expect the response to be json:
@@ -28,7 +31,7 @@ class AuctionRoutesSpec  extends WordSpec with Matchers with ScalaFutures with S
       // note that there's no need for the host part in the uri:
       val request = HttpRequest(uri = "/auction?cmd=save", method = HttpMethods.PUT)
 
-      request ~> auctionRoute ~> check {
+      request ~> auctionRoute2Test ~> check {
         status should ===(StatusCodes.Accepted)
 
         // we expect the response to be json:
@@ -45,7 +48,7 @@ class AuctionRoutesSpec  extends WordSpec with Matchers with ScalaFutures with S
       // note that there's no need for the host part in the uri:
       val request = HttpRequest(uri = "/auction?bid=20&user=to", method = HttpMethods.PUT)
 
-      request ~> auctionRoute ~> check {
+      request ~> auctionRoute2Test ~> check {
         status should ===(StatusCodes.Accepted)
 
         // we expect the response to be json:
@@ -56,7 +59,7 @@ class AuctionRoutesSpec  extends WordSpec with Matchers with ScalaFutures with S
       }
 
       val request2 = HttpRequest(uri = "/auction", method = HttpMethods.GET)
-      request2 ~> auctionRoute ~> check {
+      request2 ~> auctionRoute2Test ~> check {
         status should ===(StatusCodes.OK)
 
         // we expect the response to be json:

@@ -54,7 +54,6 @@ object WebServerDemo {
     }
   }
 
-
   val auctionRoute = getAuctionRoute(system.actorOf(Props[AuctionPersistentActor], "auctionActor"))
 
   def main(args: Array[String]) {
