@@ -17,7 +17,7 @@ case class AuctionState(events: List[Bid] = Nil)  {
 }
 
 class AuctionPersistentActor  extends PersistentActor with ActorLogging {
-  var state = AuctionState()
+  private var state = AuctionState()
 
   def updateState(event: Bid): Unit =
     state = state.updated(event)

@@ -35,7 +35,7 @@ class AuctionPersistentActorTest extends TestKit(ActorSystem("AuctionPersistentA
       auctionActor ! "nuke"
       auctionActor ! GetBids
 
-      expectMsg(Bids(Seq(Bid("user1", 3), Bid("user1", 2)).toList))
+      expectMsg(Bids(List(Bid("user1", 3), Bid("user1", 2))))
     }
   }
 }
