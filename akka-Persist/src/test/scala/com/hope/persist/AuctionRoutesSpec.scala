@@ -1,16 +1,13 @@
 package com.hope.persist
 
-import akka.actor.Props
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.testkit.ScalatestRouteTest
 import akka.testkit.TestKit
-import com.hope.persist.WebServerDemo.getAuctionRoute
-import com.hope.persist.fixtures.RestartableActor
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.{Matchers, WordSpec}
 
 class AuctionRoutesSpec  extends WordSpec with Matchers with ScalaFutures with ScalatestRouteTest {
-  val auctionRoute2Test = getAuctionRoute(system.actorOf(Props[AuctionPersistentActor with RestartableActor]))
+  val auctionRoute2Test = WebServerDemo.auctionRoute
 
   override def afterAll: Unit = {
     TestKit.shutdownActorSystem(system)
@@ -70,6 +67,7 @@ class AuctionRoutesSpec  extends WordSpec with Matchers with ScalaFutures with S
 
         // and no entries should be in the list:
         entityAs[String] should ===("""{"bids":[{"userId":"to","offer":20}]}""")
+//        entityAs[List[String]] should === (List(""))
       }
     }
   }
