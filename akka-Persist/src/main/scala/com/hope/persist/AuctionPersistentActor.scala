@@ -1,7 +1,7 @@
 package com.hope.persist
 
 import akka.actor.ActorLogging
-import akka.persistence.{PersistentActor, SnapshotOffer}
+import akka.persistence.SnapshotOffer
 
 case class AuctionState(events: List[Bid] = Nil)  {
   def updated(evt: Bid): AuctionState = {
@@ -19,6 +19,21 @@ class AuctionPersistentActor  extends AuctionPersistentProxy with ActorLogging {
     state = state.updated(event)
 
   override def persistenceId = "auction-persistent-actor"
+
+  override def preRestart(reason: Throwable, message: Option[Any]): Unit = {
+    log.info("preRestart - AuctionPersistentActor restarted")
+    super.preRestart(reason, message)
+  }
+
+  override def postRestart(reason: Throwable): Unit = {
+    log.info("postRestart - AuctionPersistentActor restarted")
+    super.postRestart(reason)
+  }
+
+  override def postStop(): Unit = {
+    log.info("postStop - AuctionPersistentActor stopped")
+    super.postStop()
+  }
 
   override val receiveRecover: Receive = {
     case bid: Bid =>

@@ -25,14 +25,14 @@ object WebServerDemo {
   // needed for the future flatMap/onComplete in the end
   implicit val executionContext: ExecutionContextExecutor = system.dispatcher
 
-  def getAuctionRoute(actorPARef: ActorRef): Route = {
+  def getAuctionRoute(actorPARef: ActorRef): Route =
     path("auction") {
       put {
         parameter('bid.as[Int], 'user) {
           (bid, user) =>
             // place a bid, fire-and-forget
             actorPARef ! Bid(user, bid)
-            complete((StatusCodes.Accepted, "bid placed"))
+            complete(StatusCodes.Accepted, "bid placed")
         }
       } ~
         put {
@@ -41,7 +41,7 @@ object WebServerDemo {
               println(s"received $cmd")
               // run a command, fire-and-forget
               actorPARef ! cmd
-              complete((StatusCodes.Accepted, "command executed!"))
+              complete(StatusCodes.Accepted, "command executed!")
           }
         } ~
         get {
@@ -52,7 +52,6 @@ object WebServerDemo {
           complete(bids)
         }
     }
-  }
 
   val auctionRoute = getAuctionRoute(system.actorOf(Props[AuctionPersistentActor], "auctionActor"))
 
