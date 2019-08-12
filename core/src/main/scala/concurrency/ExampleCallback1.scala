@@ -14,7 +14,7 @@ object ExampleCallback1 extends App {
   }
 
   println("before onComplete")
-  f.onComplete {
+  f onComplete {
     case Success(value) => println(s"Got the callback, meaning: $value")
     case Failure(e)     => e.printStackTrace
   }

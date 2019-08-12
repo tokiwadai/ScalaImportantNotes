@@ -9,12 +9,12 @@ import scala.concurrent.duration._
 object Futures1 extends App {
   implicit val baseTime: Long = System.currentTimeMillis
 
-  val f = Future {
+  val f: Future[Int] = Future {
     sleep(500)
     1 + 1
   }
 
-  val res = Await.result(f, 1 second)
+  val res: Future[Int] = Await.ready(f, 1 second)
   println(res)
   sleep(1000)
 }

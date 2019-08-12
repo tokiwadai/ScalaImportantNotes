@@ -7,6 +7,7 @@ target/*
 akka/src/main/resources/files/2008.csv
 akka/src/main/resources/files/test.csv
 factorial*.txt
+FX_ArbitrageMyWay0121.zip
 .classpath
 .project
 .cache-main

@@ -1,4 +1,6 @@
-package reverseLinkedList
+package misc.reverseLinkedList
+
+import scala.annotation.tailrec
 
 object ReverseLinkedListApp extends App {
   case class LinkedListNode[T](item: T, next: LinkedListNode[T]) {
@@ -7,8 +9,8 @@ object ReverseLinkedListApp extends App {
     }
 
     private def print(node: LinkedListNode[T]): String = {
-      if (node.hasNext) node.item.toString + ", " + print(node.next)
-      else node.item.toString
+      if (node.hasNext) s"${node.item}, ${print(node.next)}"
+      else s"${node.item}"
     }
 
     override def toString(): String = {
@@ -16,16 +18,17 @@ object ReverseLinkedListApp extends App {
     }
   }
 
+  @tailrec
   def rec(listToDo: LinkedListNode[Int], reverseList: LinkedListNode[Int]): LinkedListNode[Int] = {
-    if (listToDo.hasNext)
-      rec(listToDo.next, LinkedListNode(listToDo.item, reverseList))
-    else
+    if (!listToDo.hasNext)
       LinkedListNode(listToDo.item, reverseList)
+    else
+      rec(listToDo.next, LinkedListNode(listToDo.item, reverseList))
   }
 
   def reverse(link: LinkedListNode[Int]): LinkedListNode[Int] = {
-    val listToDo = link.next
     val reverseList = LinkedListNode(link.item, null)
+    val listToDo = link.next
     val res = rec(listToDo, reverseList)
     res
   }

@@ -4,11 +4,12 @@
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="jdk" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/akka" />
+            <option value="$PROJECT_DIR$/akka-Persist" />
+            <option value="$PROJECT_DIR$/akka-Persist/project" />
             <option value="$PROJECT_DIR$/akka-http" />
             <option value="$PROJECT_DIR$/akka-http-swagger" />
             <option value="$PROJECT_DIR$/akka-http-swagger/project" />

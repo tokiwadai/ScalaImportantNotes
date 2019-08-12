@@ -35,7 +35,8 @@ object FlightDelayStreaming {
         // Flows
         val B: FlowShape[String, FlightEvent] = builder.add(csvToFlightEvent)
         val C: FlowShape[FlightEvent, FlightDelayRecord] = builder.add(filterAndConvert)
-        val D: UniformFanOutShape[FlightDelayRecord, FlightDelayRecord] = builder.add(Broadcast[FlightDelayRecord](2))
+        val D: UniformFanOutShape[FlightDelayRecord, FlightDelayRecord] =
+          builder.add(Broadcast[FlightDelayRecord](2))
         val F: FlowShape[FlightDelayRecord, (String, Int, Int)] = builder.add(averageCarrierDelay)
 
         // Sinks
@@ -56,7 +57,8 @@ object FlightDelayStreaming {
 
   def averageSink[A](a: A) {
     a match {
-      case (a: String, b: Int, c: Int) => println(s"Delays for carrier ${a}: ${Try(c / b).getOrElse(0)} average mins, ${b} delayed flights")
+      case (a: String, b: Int, c: Int) =>
+        println(s"Delays for carrier ${a}: ${Try(c / b).getOrElse(0)} average mins, ${b} delayed flights")
       case x => println("no idea what " + x + "is!")
     }
   }
@@ -96,7 +98,7 @@ object FlightDelayStreaming {
       Future(new FlightDelayRecord(r.year, r.month, r.dayOfMonth, r.flightNum, r.uniqueCarrier, r.arrDelayMins))
     } // output a FlightDelayRecord
 
-  val averageCarrierDelay =
+  val averageCarrierDelay: Flow[FlightDelayRecord, (String, Int, Int), NotUsed] =
     Flow[FlightDelayRecord]
       .groupBy(30, _.uniqueCarrier)
       .fold(("", 0, 0)) {

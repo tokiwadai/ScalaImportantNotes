@@ -5,7 +5,6 @@ import concurrency.sleep
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
 
-
 object FutureCallback1App {
   def main(args: Array[String]) = {
     val fcb1 = new FutureCallback1
